@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Customer;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,8 @@ Route::get('/', function () {
 });
 
 Route::get('marcelo', function () {
-    return 'teste';
+    return 'testasd';
 });
+
+//Route::post('cliente', 'App\Http\Controllers\Customer@create');
+
